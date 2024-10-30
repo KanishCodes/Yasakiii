@@ -1,3 +1,5 @@
+/* Existing styles... */
+
 h1, h2, h3 {
   margin: 0;
   padding: 0;
@@ -72,7 +74,6 @@ h3 {
   width: 125vh;
   height: 80vh;
   align-items: center;
-  
 }
 
 .hero-img {
@@ -98,7 +99,6 @@ h3 {
   padding-top: 2px;
   text-align: end;
   transform: translateX(766px);
-
 }
 
 .findoutspace {
@@ -181,4 +181,65 @@ h3 {
 
 .collage-container img:nth-child(even) {
   height: 350px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .hero-image {
+    height: 50vh; /* Reduce hero height */
+  }
+
+  .hero-text {
+    font-size: 80px; /* Smaller font size for hero text */
+    transform: translateX(0); /* Reset transform */
+  }
+
+  .aboutus {
+    font-size: 30px; /* Smaller font size for about us */
+  }
+
+  .collage-container {
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+  }
+
+  .collage-container img {
+    height: auto; /* Let images adjust their height */
+  }
+
+  .findoutspace {
+    padding: 20px; /* Adjust padding */
+  }
+
+  .pass {
+    font-size: 16px; /* Smaller font size for pass */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    font-size: 50px; /* Even smaller font size for very small screens */
+  }
+
+  .aboutus {
+    font-size: 24px; /* Smaller font size */
+  }
+
+  .findoutspace {
+    padding: 15px; /* Further adjust padding */
+  }
 }
