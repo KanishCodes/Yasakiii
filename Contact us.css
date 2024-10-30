@@ -1,0 +1,52 @@
+body{
+  background-color: rgba(4, 4, 4, 0.875);
+  font-family: 'Noto Sans JP', sans-serif;
+  
+}
+
+form{
+  color:  rgb(117,38, 7);
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgba(243, 95, 36, 0.83);
+  
+}
+
+
+h1{
+  color: rgb(156, 13, 11);
+  padding: 5px;
+  background-color: rgba(243, 95, 36, 0.83);
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Noto Serif JP', serif;
+  
+}
+p{
+  color: rgb(117,38, 7);
+  font-size: large;
+  background-color: rgba(243, 95, 36, 0.83);
+  margin-top:1px; 
+  text-align: center;
+  font-size: 25px;
+}
+h2{
+  color: rgb(117, 38, 7);
+  background-color: rgba(243, 95, 36, 0.83);
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #de947d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #b5d2bb;
+}
