@@ -4,12 +4,12 @@ body {
   color: #333;
   margin: 0;
   padding: 20px;
-  background-image: url(red\ bg3.jpg);
+  background-image: url(red bg3.jpg);
 }
 
 .menu-heading {
   position: relative;
-  background-image: url(red\ bg4.jpg);
+  background-image: url(red bg4.jpg);
   background-size: cover;
   background-position: center center;
   border-radius: 8px;
