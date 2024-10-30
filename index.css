@@ -186,27 +186,27 @@ h3 {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align to the start */
   }
 
   .nav-links {
-    flex-direction: column;
-    width: 100%;
-    padding: 10px 0;
+    flex-direction: column; /* Stack links vertically */
+    width: 100%; /* Full width */
+    padding: 10px 0; /* Add some padding */
   }
 
   .nav-links li {
-    margin: 10px 0;
+    margin: 10px 0; /* Space between links */
   }
 
   .hero-image {
-    height: 50vh; /* Reduce hero height */
+    height: 50vh; /* Reduce height for mobile */
   }
 
   .hero-text {
-    font-size: 80px; /* Smaller font size for hero text */
-    transform: translateX(0); /* Reset transform */
+    font-size: 80px; /* Smaller font size */
+    transform: translate(-50%, -50%); /* Center text */
   }
 
   .aboutus {
