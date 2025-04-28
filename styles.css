@@ -92,3 +92,81 @@ a {
 .btn:hover {
   background-color: #e67e22;
 }
+
+/* Specialties Section */
+.specialties {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #fff;
+}
+
+.specialties h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #2C3E50;
+}
+
+.specialties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.specialty-item {
+  background-color: #ecf0f1;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.specialty-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.specialty-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #f39c12;
+}
+
+.specialty-item p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+}
+
+/* Footer Styles */
+.site-footer {
+  background-color: #2C3E50;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-links a {
+  color: #f39c12;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #e67e22;
+}
