@@ -48,4 +48,4 @@ Built contact.html, contact.css, and contact.js, focusing on user-friendly forms
 
 ## A Glimpse of Yasaki - 
 
-![alt text](image.png)
+![alt text](git_project\Yasakiii\image.png)
