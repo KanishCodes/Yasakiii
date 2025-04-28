@@ -49,4 +49,57 @@ body {
   color: #e74c3c;
 }
 
+/* Hero Section */
+.about-intro {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-intro h1 {
+  font-size: 36px;
+  color: #2c3e50;
+}
+
+.about-intro p {
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+/* Our Story Section */
+.our-story {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ecf0f1;
+}
+
+.our-story h2 {
+  font-size: 32px;
+  color: #2c3e50;
+}
+
+.our-story p {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-top: 20px;
+}
+
+/* Meet Chefs Section */
+.meet-chefs {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.meet-chefs h2 {
+  font-size: 32px;
+  color: #2c3e50;
+}
+
+.meet-chefs p {
+  font-size: 18px;
+  color: #7f8c8d;
+}
 
