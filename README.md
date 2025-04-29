@@ -46,6 +46,6 @@ Added interactive elements to about.js.
 
 Built contact.html, contact.css, and contact.js, focusing on user-friendly forms and responsiveness
 
-## A Glimpse of Yasaki - 
+## A Glimpse of Yasaki --
 
 ![alt text](git_project\Yasakiii\image.png)
