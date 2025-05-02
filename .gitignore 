@@ -12,6 +12,7 @@ Thumbs.db
 # Editor directories
 .vscode/
 .idea/
+*.swp
 
 
 # Ignore environment and config files
