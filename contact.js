@@ -1,5 +1,4 @@
 // contact.js
-
 // Simple validation for the contact form
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector(".contact-form");
