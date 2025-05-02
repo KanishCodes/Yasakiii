@@ -5,10 +5,13 @@ node_modules/
 dist/
 build/
 
-
-# Ignore system files 
+# System files
 .DS_Store
 Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
 
 
 # Ignore environment and config files
