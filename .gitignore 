@@ -1,0 +1,37 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore build files
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and config files
+.env
+*.local
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
+# Ignore compiled files
+*.class
+*.pyc
+*.o
+*.out
+*.exe
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore dependency lock files (if not needed in version control)
+yarn.lock
+package-lock.json
