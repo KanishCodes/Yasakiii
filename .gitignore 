@@ -1,5 +1,8 @@
 # Ignore node_modules (for Node.js projects)
+# Node modules and build
 node_modules/
+dist/
+build/
 
 # Ignore build files
 dist/
