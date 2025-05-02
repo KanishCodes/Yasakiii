@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             valid = false;
             alert("Please enter your message.");
         }
-  
+
         if (!valid) {
             event.preventDefault(); // Prevent form submission if validation fails
         }
