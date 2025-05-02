@@ -5,6 +5,7 @@ node_modules/
 dist/
 build/
 
+
 # Ignore system files 
 .DS_Store
 Thumbs.db
