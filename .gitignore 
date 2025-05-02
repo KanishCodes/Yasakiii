@@ -16,6 +16,7 @@ Thumbs.db
 # Ignore log files
 *.log
 
+
 # Ignore IDE/editor config files
 .vscode/
 .idea/
