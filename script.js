@@ -16,6 +16,7 @@ document.querySelectorAll('.nav-links a').forEach(anchor => {
   });
 });
 
+
 // Animation for the hero section on page load
 document.addEventListener('DOMContentLoaded', () => {
     const heroContent = document.querySelector('.hero-content');
