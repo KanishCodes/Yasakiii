@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             valid = false;
             alert("Please enter your name.");
         }
+
   
         if (!emailInput.value.trim() || !/\S+@\S+\.\S+/.test(emailInput.value)) {
             valid = false;
