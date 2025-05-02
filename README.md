@@ -19,7 +19,7 @@ Yasaki is a modern Japanese restaurant website designed to showcase authentic di
    ```bash
    git clone https://github.com/KanishCodes/Yasakiii.git
 
-2. Open the project in your favorite editor (e.g., VS Code).
+2. Open the project in your favorite editor (e.g., VS Code)
 
 3. Launch the website by opening index.html in your browser.
 
